@@ -1,7 +1,7 @@
 
 import './Bg.css';
-import close from './assets/close.png'
-
+import close from './assets/close.png';
+import Download from './Download'
 
 function Bg() {
   return (
@@ -14,7 +14,28 @@ function Bg() {
             <div className="upload_btn"> העלאת תמונה  </div>
 
 
-            <div className="content_div"> </div>
+            <div className="content_div">
+                <div className="content_left">
+
+                    <div className="tabs_cont">
+                        <div className="tabs_text text_bg_no_bg"> הוסר רקע </div>
+                        <div className="tabs_text text_bg_orig"> מקורי </div>
+                    </div>
+
+                  <div className="content_left_middle">
+
+                  </div>
+
+                </div>
+                <div className="content_right">
+
+                  <div className="content_right_middle">
+                        <Download title="תמונה חינם" desc="תצוגה מקדימה של תמונה" btn_text="הורד" small_text="איכות טובה עד 0.25 מגה פיקסל"  comp_side="top" ></Download>
+                        <Download title="Pro" desc="תמונה מלאה" btn_text="HD הורד" small_text="האיכות הטובה ביותר עד 25 מגה פיקל" comp_side="bottom" ></Download>
+                  </div>
+
+                </div>
+            </div>
 
             
         </div>
