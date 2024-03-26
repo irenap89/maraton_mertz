@@ -96,8 +96,9 @@
     background-repeat: no-repeat;
     background-position: 110px 6px;
     padding-right: 34px;
-    border-bottom: 2px solid #9C27B0;
+ 
     height: 36px;
+    cursor: pointer;
 }
 
 .text_bg_orig{
@@ -105,4 +106,79 @@
     background-repeat: no-repeat;
     background-position: 106px 6px;
     padding-right: 20px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.border_bottom_selected{
+    border-bottom: 2px solid #9C27B0;
+}
+
+.footer_text{
+    color: #ffffff63;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 18px;
+    padding-right: 10px;
+}
+
+.footer_btn{
+    background-color: #475366;
+    width: 108px;
+    color: #ffffff94;
+    padding: 7px;
+    text-align: right;
+    border-radius: 28px;
+    border: 0;
+    top: 0;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    background-image: url('./assets/eula.png');
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+.overlay{
+    background-color: #3e3e3ec7;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.popup_eula{
+    height: 677px;
+    z-index: 2;
+    background-color: white;
+    position: absolute;
+    top: 191px;
+    left: 334px;
+    width: 900px;
+    border-radius: 21px;
+    padding: 20px;
+}
+
+.popup_text{
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 23px;
+
+}
+
+.bunner_img{
+    width:70%;
+    margin-right: 15px;
+}
+
+.logo_img{
+    width: 18%;
+    margin-right: 18px;
+    height: 40px;
+    margin-top: 4px;
 }
