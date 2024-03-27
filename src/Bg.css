@@ -39,6 +39,15 @@
     background-position: 13px 10px;
 }
 
+.upload_btn_text{
+    position: absolute;
+    color: #ffffff96;
+    direction: rtl;
+    top: 56px;
+    left: 218px;
+    font-size: 12px;
+}
+
 .content_div{
 
     width: 100%;
